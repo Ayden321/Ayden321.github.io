@@ -6,15 +6,35 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Dream it possible</title>
+  <title>密集人群计数算法回顾——从传统到深度学习 | Dream it possible</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Dream it possible">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="本文将对有关密集人群计数的算法进行分析总结，回顾人群计数领域近几年的进展，主要从视频监控的人群计数算法、">
+<meta property="og:type" content="article">
+<meta property="og:title" content="密集人群计数算法回顾——从传统到深度学习">
+<meta property="og:url" content="http://yoursite.com/2019/05/18/crowd-counting-development/index.html">
 <meta property="og:site_name" content="Dream it possible">
+<meta property="og:description" content="本文将对有关密集人群计数的算法进行分析总结，回顾人群计数领域近几年的进展，主要从视频监控的人群计数算法、">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUDsO.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmU6dH.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUyee.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUrLD.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUBQK.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUcod.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmU2FA.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmURJI.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUWWt.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUhSP.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmU4Qf.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmU5y8.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NmUIOS.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NnQIFf.png">
+<meta property="og:image" content="https://s1.ax1x.com/2020/06/18/NnQ4TP.jpg">
+<meta property="og:updated_time" content="2020-07-12T01:28:10.988Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dream it possible">
+<meta name="twitter:title" content="密集人群计数算法回顾——从传统到深度学习">
+<meta name="twitter:description" content="本文将对有关密集人群计数的算法进行分析总结，回顾人群计数领域近几年的进展，主要从视频监控的人群计数算法、">
+<meta name="twitter:image" content="https://s1.ax1x.com/2020/06/18/NmUDsO.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Dream it possible" type="application/atom+xml">
   
@@ -142,327 +162,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-say-as-you-wish" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-crowd-counting-development" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/18/say-as-you-wish/">CVPR 2020：细粒度可控的图像描述自动生成</a>
-    </h1>
-  
-
-        
-        <a href="/2020/06/18/say-as-you-wish/" class="archive-article-date">
-  	<time datetime="2020-06-18T15:09:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>本文介绍的是CVPR 2020上录用为Oral的论文《﻿Say As You Wish: Fine-grained Control of Image Caption Generation with Abstract Scene Graph》
-        
-          <a class="article-more-a" href="/2020/06/18/say-as-you-wish/#more">more >></a>
-        
-      
-
-      
-    </p></blockquote></div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/学术前沿//" class="article-tag-list-link color5">学术前沿</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/18/say-as-you-wish/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Dense-Caption-Context-Attribute" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/12/Dense-Caption-Context-Attribute/">CVPR2019 Dense Captioning —— Context and Attribute Grounded Dense Captioning</a>
-    </h1>
-  
-
-        
-        <a href="/2020/03/12/Dense-Caption-Context-Attribute/" class="archive-article-date">
-  	<time datetime="2020-03-12T00:34:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-12</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><div align="center"> <img src="https://s1.ax1x.com/2020/07/12/U15YGR.jpg" alt></div></p>
-<blockquote>
-<p>dense caption旨在对图片中的物体定位并且用一个简短的句子或者短语描述出来。以往的工作大多是先把物体框出来，然后针对这个框生成caption
-        
-          <a class="article-more-a" href="/2020/03/12/Dense-Caption-Context-Attribute/#more">more >></a>
-        
-      
-
-      
-    </p></blockquote></div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/学术前沿//" class="article-tag-list-link color5">学术前沿</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/03/12/Dense-Caption-Context-Attribute/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Wider-Face-And-Person-Challenge" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/01/Wider-Face-And-Person-Challenge/">2019 ICCV WIDER FACE AND PERSON CHALLENGE 亚军方案</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/01/Wider-Face-And-Person-Challenge/" class="archive-article-date">
-  	<time datetime="2019-09-01T07:44:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><div align="center"> <img src="https://s1.ax1x.com/2020/07/11/Uluhc9.jpg" alt></div></p>
-<blockquote>
-<p>ICCV 2019 WIDER FACE AND PERSON CHALLENGE 是由香港中文大学、商汤科技、悉尼大学联合举办的在全球范围内具有影响力的计算机视觉顶级赛事，本届比赛与ICCV 2019联合举办，ICCV即IEEE International Conference on Computer Vision（国际计算机视觉大会），由IEEE主办，与计算机视觉模式识别会议（CVPR）和欧洲计算机视觉会议（ECCV）并称计算机视觉方向的三大顶级会议。
-        
-          <a class="article-more-a" href="/2019/09/01/Wider-Face-And-Person-Challenge/#more">more >></a>
-        
-      
-
-      
-    </p></blockquote></div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/个人空间//" class="article-tag-list-link color5">个人空间</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/01/Wider-Face-And-Person-Challenge/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-crowdhuman-challenge-scheme" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/06/26/crowdhuman-challenge-scheme/">2019 CVPR Detection In The Wild Challenge 季军方案及经验介绍</a>
-    </h1>
-  
-
-        
-        <a href="/2019/06/26/crowdhuman-challenge-scheme/" class="archive-article-date">
-  	<time datetime="2019-06-26T07:46:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-06-26</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><div align="center"> <img src="https://s1.ax1x.com/2020/07/11/U1t1EQ.jpg" alt></div></p>
-<blockquote>
-<p>近日，由旷视科技(MEGVII)主办的2019 CVPR Detection In The Wild Challenge 竞赛最终结果在CVPR 2019 主会场公布，本人带领的参赛队伍有幸在众多国内外高校及企业组织的队伍中脱颖而出，在CrowdHuman赛道(野外场景下行人检测)取得了季军。这篇博文
-        
-          <a class="article-more-a" href="/2019/06/26/crowdhuman-challenge-scheme/#more">more >></a>
-        
-      
-
-      
-    </p></blockquote></div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/个人空间//" class="article-tag-list-link color5">个人空间</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/06/26/crowdhuman-challenge-scheme/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-crowd-counting-development" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/18/crowd-counting-development/">密集人群计数算法回顾——从传统到深度学习</a>
+    <h1 class="article-title" itemprop="name">
+      密集人群计数算法回顾——从传统到深度学习
     </h1>
   
 
@@ -476,14 +183,79 @@
     <div class="article-entry" itemprop="articleBody">
       
         <blockquote>
-<p>本文将对有关密集人群计数的算法进行分析总结，回顾人群计数领域近几年的进展，主要从视频监控的人群计数算法、
-        
-          <a class="article-more-a" href="/2019/05/18/crowd-counting-development/#more">more >></a>
-        
+<p>本文将对有关密集人群计数的算法进行分析总结，回顾人群计数领域近几年的进展，主要从视频监控的人群计数算法、<a id="more"></a> 单张图像人群计数算法以及基于深度学习的人群计数算法出发，介绍不同人群计数系统的结构流程，并且简单分析了该领域今后的发展趋势。</p>
+</blockquote>
+<blockquote>
+<p>现有的人群计数方法可以分为基于人体检测的方法和基于密度图回归的方法。基于人体检测的方法本质是一个检测问题，通过检测人体部件来识别人体进而计数；基于密度图回归的方法本质是一个回归问题，通过回归人群密度图进而对密度图积分得到人数数量。由于检测的方法受遮挡等因素影响巨大，尤其在复杂密集场景下，通过检测统计得到的人数往往不太准确。因此，针对复杂密集场景下的人群计数，目前主流的算法都是基于密度图回归的思路。</p>
+</blockquote>
+<h3 id="1-任务介绍"><a href="#1-任务介绍" class="headerlink" title="1. 任务介绍"></a><strong>1. 任务介绍</strong></h3><p>在各大城市中，随着居住人口密度的增长，人群大量聚集的行为越来越多，且规模越来越大。虽然在城市的每个角落几乎都装有摄像设备，但目前人群的聚集仍然缺乏有效的管理和控制。因此，人群计数(Crowd Counting)或者人群密度估计(Crowd Density Estimation)成为安防领域不可或缺的研究课题。最近几年，无论是监控视频还是单张图像的人群计数算法性能都得到很大的提升，当然“万能”的深度学习(Deep Learning)在该领域也表现出极其优越的性能。</p>
+<p>首先，让对人群计数问题有一个直观的感受，即它到底干了一件什么事？</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUDsO.jpg" alt></p>
+<p>图1. 是一段监控视频中的两帧画面，相信你会很容易地数出这两张图中分别有18和11个人，这就是人群计数问题。对于上面两张图还可以轻易数出人数，但是对于类似于图2. 的场景，你还有耐心数下去吗？显然不会！那么这个任务就需要交给计算机自动地去完成。解决人群计数问题的传统的做法是手动设计并提取各种特征(Hand-crafted Features)，然后再基于这些特征训练一个线性或非线性函数来回归人头数。</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmU6dH.jpg" alt></p>
+<p>深度学习算法——卷积神经网络(Convolution Neural Network(CNN))使得整个网络同时完成特征提取和回归任务，从而实现端对端的训练(End-to-end Training)。本文主要回顾近几年人群计数领域的发展及深度学习在该领域的应用，接下来文章主要分为三个部分：</p>
+<p>1）监控视频中人群计数算法。</p>
+<p>2）单张图像人群计数算法。</p>
+<p>3）基于深度学习的人群计数算法。</p>
+<h3 id="2-监控视频中人群计数算法"><a href="#2-监控视频中人群计数算法" class="headerlink" title="2. 监控视频中人群计数算法"></a><strong>2. 监控视频中人群计数算法</strong></h3><p>视频相对于离散的图像而言包含运动的信息，因此大多数基于视频的人群计数算法一般分为三个步骤： 1）前景分割；2）特征提取；3）人数回归。接下来将对这三个步骤分别做详细的介绍。</p>
+<p><strong> 1）、前景分割</strong><br>前景（人群）分割的目的是将人群从图像中分割出来便于后面的特征提取，分割性能的好坏直接关系到最终的计数精度，因此这是限制传统算法性能的一个重要因素。常用的分割算法有：光流法(Optical Flow)、混合动态纹理(Mixture of Dynamic Textures)、小波分析(Wavelets) 等。这种基于运动信息的前景分割算法的缺点非常明显：如果视频中的人站着不动，那么就会把静止不动的人分为背景，从而影响人群计数的性能。</p>
+<p><strong> 2）、特征提取</strong><br>在完成前景分割之后，紧接着就是从分割得到的前景（人群）提取各种不同的低层特征(Low-level Features)，常用的特征有：人群面积和周长(Area and Perimeter of Crowd Mask)、边的数量(Edge Count)、边的方向(Edge Orientation)、纹理特征(Texture Features)、闵可夫斯基维度(Minkowski Dimension)等。</p>
+<p><strong> 3）、人数回归</strong><br>该步骤的目的是将上一步提取到的特征回归到图像中的人数，回归可以是简单的线性回归，也可以用复杂的非线性回归。常用的回归方法有：线性回归(Linear Regression)、分段线性回归(Piece-wise Linear Regression)、脊回归(Ridge Regression)、高斯过程回归(Gaussian Process Regression)等。</p>
+<p>接下来让通过发表于CVPR08的一篇代表性论文Privacy Preserving Crowd Monitoring: Counting People without People Models or Tracking. 来详细了解整个算法流程。图3. 展示了一个经典的视频人群计数系统：首先采用混合动态纹理的方法将运动的人群分割出来。</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUyee.jpg" alt></p>
+<p>由于视角原因，靠近摄像头的人要比远离摄像头的人在图像中占更多的像素，作者给人群引入了视角归一化 (Perspective Normalization)，具体操作如图4.所示：</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUrLD.jpg" alt></p>
+<p>标定一个地平面(Ground Plane)，测量在$ab$上的人在图像中的高度$h_1$，以及在$cd$上人的高度$h_2$。分别给$ab$和$cd$上的像素乘以权重1和$\frac{h_1|\vec {ab}|}{h_2|\vec {cd}|}$，中间的像素的权重通过这两条线之间的线性插值得到。接下来在归一化后的人群块(Crowd Blob)上提取多种特征（面积，周长，边缘方向，纹理）。最后采用高斯过程回归将提取的特征回归到图像中人群数量。</p>
+<p>平均绝对误差($MAE$)和均方误差($MSE$)是常用的衡量算法性能的标准，前者表征算法的准确性，后者表征算法的稳定性，二者的定义如下式：</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUBQK.jpg" alt></p>
+<p>其中$N$是测试的图片数量（视频帧数）,$z_i$是第$i$张图片实际人数,$\hat {z_i}$是算法估计的人数。</p>
+<h3 id="3-单张图像人群计数算法"><a href="#3-单张图像人群计数算法" class="headerlink" title="3. 单张图像人群计数算法"></a><strong>3. 单张图像人群计数算法</strong></h3><p>对于单张图像而言没有运动信息，那么人群分割就显得非常困难，因此此类算法一般直接从整张图像或者其子区域提取特征，然后再计算图像中人群数量。发表于CVPR2013的论文Multi-Source Multi-Scale Counting in Extremely Dense Crowd Images提出了一种使用多源信息（Multiple Sources of Information）估计单张具有非常密集人群的图像的人数的方法。作者首先把一张图片分成很多较小的区域如图5.所示：</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUcod.jpg" alt></p>
+<p>然后对每个区域从三种不同而互补的源进行人数估计，最终这张图像的人数是每个区域的人数之和。这三种源分别是：1）基于HOG的人头检测(HOG based Head Detections)；2）傅里叶分析(Fourier Analysis)；3）基于兴趣点的计数(Interest Points based Counting)。最终每个区域的人数由以上三个源综合得到。由于实际图像相邻区域的人数差别不是很大，作者采用马尔可夫随机场(Markov Random Field)使得估计得到的相邻区域的人数比较光滑。图6.显示了MRF前后每个区域人数的区别。</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmU2FA.jpg" alt></p>
+<h3 id="4-基于深度学习的人群计数算法"><a href="#4-基于深度学习的人群计数算法" class="headerlink" title="4. 基于深度学习的人群计数算法"></a><strong>4. 基于深度学习的人群计数算法</strong></h3><p>在监控视频的人群计数算法中，前景分割是不可或缺的步骤，然而前景分割本身就是一个比较困难的任务，算法性能很大程度地受其影响。卷积神经网络实现了端对端训练，无需进行前景分割以及人为地设计和提取特征，经过多层卷积之后得到的高层特征(High-level Features)使得算法性能更加优秀。发表于CVPR2015的论文Cross-scene Crowd Counting via Deep Convolutional Neural Networks提出了一个适用人群计数的卷积神经网络模型如图7.所示：</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmURJI.jpg" alt></p>
+<p>该网络以图像中72 x 72的图像块 （Patch）作为输入，交替回归该图像块的人群密度和人群总数，相应的损失函数定义如下式：</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUWWt.jpg" alt></p>
+<p>在训练好一个模型后，用与测试数据（和训练数据的场景不同）视角类似的训练图像块(Image Patch)对已经训练好的模型进行微调(Finetune)，从而达到跨场景(Cross-scene)人群计数的目的，具体流程见图8.。</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUhSP.jpg" alt></p>
+<p>另一个关于单张图像人群计数的工作：Single-Image Crowd Counting via Multi-Column Convolutional Neural Network，该工作发表于 CVPR 2016. 为了能够更好地抓取图像中不同大小人头的特征，提出了适用于人群计数的多列卷积神经模型(MCNN)如图9.所示。该网络的每一列子网络深度相同，但是滤波器的大小(Filter Size)不同（大，中，小），因此每一列子网络的感受野(Receptive Field)不同，能够抓住不同大小人头的特征，最后将三列子网络的特征图(Feature Map)做线性加权（由1x1的卷积完成）得到该图像的人群密度图。由于该网络没有使用全连接层(Full-connected Layer)，是全卷积网络(FCN)，因此参数很少，训练起来很快。此外，使用FCN的另外一个好处是输入图像可以是任意大小，从而避免了因调整图像大小(Resize)产生的图像扭曲(Image Distortion)对算法性能的影响。</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmU4Qf.jpg" alt></p>
+<p>另一方面，为了使得密度图能够更好地与不同视角（不同人头大小）且人群很密的图像对应起来，对传统的基于高斯核(Gaussian Kernel)的密度图做了改进，提出了基于几何适应高斯核(Geometry-adaptive Kernels)的密度图，由下式表示：</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmU5y8.jpg" alt></p>
+<p>其中$\delta(x-x_i)$是图像中人头位置的冲击函数，$x_i$是人头在图像中的位置，$N$为图像中人头的总数，$\overline{d^i}$为距离人头$x_i$最近$m$个人头与该人头的平均距离（在人群较密的情况下近似等于人头大小）。这样生成的密度图在人头小/大的位置高斯核的方差小/大（较集中/分散），能够更好地表征人头大小的特征。采用优化欧式损失(Euclidean Loss)的方式让网络输出的密度图回归到标准的密度图,损失函数如下式：</p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NmUIOS.jpg" alt></p>
+<p>其中$\theta$是待优化参数，$N$是训练样本数量，$X_i$是输入图像，$F_i$是对应的密度图。通过实验证实，密度图已经同时包含空间密度信息和人数（密度图求和）信息，交替回归密度图和总人数相对于直接回归密度图没有性能提升。</p>
+<h3 id="5-实际应用"><a href="#5-实际应用" class="headerlink" title="5. 实际应用"></a><strong>5. 实际应用</strong></h3><p>ADEEPLY-RECURSIVE CONVOLUTIONAL NETWORK FOR CROWD COUNTING 论文简介<br>人群计数要实现落地的话，必须要考虑计算资源受限的问题，当前很多模型的参数量过多需要占用较多存储空间，计算量过大计算耗时严重，考虑到实际应用过程中，比如嵌入式应用等，2018年这篇论文提出的基于递归结构的残差网络模型，较好地处理了模型性能和参数之间的权衡问题。网络结构如下图所示，残差连接可以减少深度网络的梯度弥散，这样便通过加深网络提高性能，而在高层语义特征层上采用参数复用的方式，可以避免因网络加深带来的参数量增大，同时参数复用使提取的高层语义特征更加稳定。从Table 1中可以看出随着网络卷积层数目从14到26加深，MAE和MSE在逐步下降，DR-ResNet跟ResNet-26一样的深度，但模型参数量仅为ResNet-26的一半，DR-ResNet在人数规模较大的Part_A上MAE略低于ResNet-26，但MSE却更好，表明该网络结构改善了模型的泛化能力。 </p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NnQIFf.png" alt></p>
+<p><img src="https://s1.ax1x.com/2020/06/18/NnQ4TP.jpg" alt></p>
+<h3 id="6-总结与展望"><a href="#6-总结与展望" class="headerlink" title="6. 总结与展望"></a><strong>6. 总结与展望</strong></h3><p>以上简单介绍了传统的视频和图像人群计数算法以及基于深度学习的人群计数算法，深度学习算法由于能够方便高效地提取高层特征而获得优越的性能是传统方法无法比拟的，因此今后高性能的人群计数算法很大程度上会采用深度学习的方法。当然，传统基于运动信息人群分割的算法也有自己的一个优点，就是能够统计视频中不同方向人流的人数，这是以单张图片作为输入的卷积神经网络很难实现的。</p>
+
       
 
       
-    </p></blockquote></div>
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>Thank you!<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
     <div class="article-info article-info-index">
       
       
@@ -501,16 +273,84 @@
 
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/18/crowd-counting-development/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/05/18/crowd-counting-development/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2019/06/26/crowdhuman-challenge-scheme/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          2019 CVPR Detection In The Wild Challenge 季军方案及经验介绍
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/03/06/crowd-counting-CSRNet/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CVPR 2018人群计数算法——CSRNet</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -530,162 +370,14 @@
 
 
 
-
   
-    <article id="post-crowd-counting-CSRNet" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/06/crowd-counting-CSRNet/">CVPR 2018人群计数算法——CSRNet</a>
-    </h1>
   
 
-        
-        <a href="/2019/03/06/crowd-counting-CSRNet/" class="archive-article-date">
-  	<time datetime="2019-03-06T15:01:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-06</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>本文将对发表在CVPR 2018上的人群计数SOTA算法CSRNet进行解读，从构思、解决方案等方面对该算法进行剖析。
-        
-          <a class="article-more-a" href="/2019/03/06/crowd-counting-CSRNet/#more">more >></a>
-        
-      
-
-      
-    </p></blockquote></div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/学术前沿//" class="article-tag-list-link color5">学术前沿</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/03/06/crowd-counting-CSRNet/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-object-detection-review" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/19/object-detection-review/">目标检测近期发展综述</a>
-    </h1>
   
 
-        
-        <a href="/2019/01/19/object-detection-review/" class="archive-article-date">
-  	<time datetime="2019-01-19T02:01:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-19</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>目标检测（Object Detection）是计算机视觉领域的基本任务之一，近些年随着深度学习技术的火热发展，
-        
-          <a class="article-more-a" href="/2019/01/19/object-detection-review/#more">more >></a>
-        
-      
-
-      
-    </p></blockquote></div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/学术前沿//" class="article-tag-list-link color5">学术前沿</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/01/19/object-detection-review/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
+
   
 
 
@@ -711,8 +403,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
